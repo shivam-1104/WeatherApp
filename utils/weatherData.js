@@ -3,7 +3,7 @@ const request = require("request");
 
 const openWeatherMap = {
     BASE_URL: "https://api.openweathermap.org/data/2.5/weather?q=",
-    SECRET_KEY: "54ab86039778d6fc42b0bbd6894481cc"
+    SECRET_KEY: "ENTER YOUR API/SECRET KEY" // ADD YOUR API KEY
 }
 
 const weatherData = (address, callback) => {
